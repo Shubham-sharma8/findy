@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* AutoCleanup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000010000000000000001 /* AutoCleanup.swift */; };
+		A10000020000000000000001 /* BatchRename.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000020000000000000001 /* BatchRename.swift */; };
+		A10000030000000000000001 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000030000000000000001 /* BrowserView.swift */; };
+		A10000040000000000000001 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000040000000000000001 /* Cards.swift */; };
+		A10000050000000000000001 /* Cleanup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000050000000000000001 /* Cleanup.swift */; };
+		A10000060000000000000001 /* DownloadSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000060000000000000001 /* DownloadSources.swift */; };
+		A10000070000000000000001 /* Duplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000070000000000000001 /* Duplicates.swift */; };
+		A10000080000000000000001 /* FileActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000080000000000000001 /* FileActions.swift */; };
+		A10000090000000000000001 /* FileShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000090000000000000001 /* FileShelf.swift */; };
+		A10000100000000000000001 /* FindyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000100000000000000001 /* FindyApp.swift */; };
+		A10000110000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000110000000000000001 /* HomeView.swift */; };
+		A10000120000000000000001 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000120000000000000001 /* InspectorView.swift */; };
+		A10000130000000000000001 /* Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000130000000000000001 /* Intents.swift */; };
+		A10000140000000000000001 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000140000000000000001 /* Library.swift */; };
+		A10000150000000000000001 /* MenuBarDownloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000150000000000000001 /* MenuBarDownloads.swift */; };
+		A10000160000000000000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000160000000000000001 /* Models.swift */; };
+		A10000170000000000000001 /* NaturalSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000170000000000000001 /* NaturalSearch.swift */; };
+		A10000180000000000000001 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000180000000000000001 /* Player.swift */; };
+		A10000190000000000000001 /* QuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000190000000000000001 /* QuickLook.swift */; };
+		A10000200000000000000001 /* QuickSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000200000000000000001 /* QuickSearch.swift */; };
+		A10000210000000000000001 /* SavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000210000000000000001 /* SavedSearches.swift */; };
+		A10000220000000000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000220000000000000001 /* SettingsView.swift */; };
+		A10000230000000000000001 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000230000000000000001 /* SidebarView.swift */; };
+		A10000240000000000000001 /* SpaceLens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000240000000000000001 /* SpaceLens.swift */; };
+		A10000250000000000000001 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000250000000000000001 /* TextRecognition.swift */; };
+		A10000260000000000000001 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000260000000000000001 /* Theme.swift */; };
+		A10000270000000000000001 /* Thumbnails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000270000000000000001 /* Thumbnails.swift */; };
+		A10000280000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10000280000000000000001 /* Assets.xcassets */; };
+		A10000300000000000000001 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F10000300000000000000001 /* Logo.png */; };
+		A20000010000000000000001 /* FindyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20000010000000000000001 /* FindyTests.swift */; };
+		A20000020000000000000001 /* AutoCleanup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000010000000000000001 /* AutoCleanup.swift */; };
+		A20000030000000000000001 /* BatchRename.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000020000000000000001 /* BatchRename.swift */; };
+		A20000040000000000000001 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000030000000000000001 /* BrowserView.swift */; };
+		A20000050000000000000001 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000040000000000000001 /* Cards.swift */; };
+		A20000060000000000000001 /* Cleanup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000050000000000000001 /* Cleanup.swift */; };
+		A20000070000000000000001 /* DownloadSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000060000000000000001 /* DownloadSources.swift */; };
+		A20000080000000000000001 /* Duplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000070000000000000001 /* Duplicates.swift */; };
+		A20000090000000000000001 /* FileActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000080000000000000001 /* FileActions.swift */; };
+		A20000100000000000000001 /* FileShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000090000000000000001 /* FileShelf.swift */; };
+		A20000110000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000110000000000000001 /* HomeView.swift */; };
+		A20000120000000000000001 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000120000000000000001 /* InspectorView.swift */; };
+		A20000130000000000000001 /* Intents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000130000000000000001 /* Intents.swift */; };
+		A20000140000000000000001 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000140000000000000001 /* Library.swift */; };
+		A20000150000000000000001 /* MenuBarDownloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000150000000000000001 /* MenuBarDownloads.swift */; };
+		A20000160000000000000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000160000000000000001 /* Models.swift */; };
+		A20000170000000000000001 /* NaturalSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000170000000000000001 /* NaturalSearch.swift */; };
+		A20000180000000000000001 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000180000000000000001 /* Player.swift */; };
+		A20000190000000000000001 /* QuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000190000000000000001 /* QuickLook.swift */; };
+		A20000200000000000000001 /* QuickSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000200000000000000001 /* QuickSearch.swift */; };
+		A20000210000000000000001 /* SavedSearches.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000210000000000000001 /* SavedSearches.swift */; };
+		A20000220000000000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000220000000000000001 /* SettingsView.swift */; };
+		A20000230000000000000001 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000230000000000000001 /* SidebarView.swift */; };
+		A20000240000000000000001 /* SpaceLens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000240000000000000001 /* SpaceLens.swift */; };
+		A20000250000000000000001 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000250000000000000001 /* TextRecognition.swift */; };
+		A20000260000000000000001 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000260000000000000001 /* Theme.swift */; };
+		A20000270000000000000001 /* Thumbnails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000270000000000000001 /* Thumbnails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000010000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = P10000010000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = T10000010000000000000001;
+			remoteInfo = Findy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F00000010000000000000001 /* Findy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Findy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00000020000000000000001 /* FindyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10000010000000000000001 /* AutoCleanup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCleanup.swift; sourceTree = "<group>"; };
+		F10000020000000000000001 /* BatchRename.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchRename.swift; sourceTree = "<group>"; };
+		F10000030000000000000001 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		F10000040000000000000001 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		F10000050000000000000001 /* Cleanup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleanup.swift; sourceTree = "<group>"; };
+		F10000060000000000000001 /* DownloadSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadSources.swift; sourceTree = "<group>"; };
+		F10000070000000000000001 /* Duplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duplicates.swift; sourceTree = "<group>"; };
+		F10000080000000000000001 /* FileActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileActions.swift; sourceTree = "<group>"; };
+		F10000090000000000000001 /* FileShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShelf.swift; sourceTree = "<group>"; };
+		F10000100000000000000001 /* FindyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindyApp.swift; sourceTree = "<group>"; };
+		F10000110000000000000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F10000120000000000000001 /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
+		F10000130000000000000001 /* Intents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intents.swift; sourceTree = "<group>"; };
+		F10000140000000000000001 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		F10000150000000000000001 /* MenuBarDownloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarDownloads.swift; sourceTree = "<group>"; };
+		F10000160000000000000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F10000170000000000000001 /* NaturalSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalSearch.swift; sourceTree = "<group>"; };
+		F10000180000000000000001 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F10000190000000000000001 /* QuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLook.swift; sourceTree = "<group>"; };
+		F10000200000000000000001 /* QuickSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearch.swift; sourceTree = "<group>"; };
+		F10000210000000000000001 /* SavedSearches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedSearches.swift; sourceTree = "<group>"; };
+		F10000220000000000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F10000230000000000000001 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		F10000240000000000000001 /* SpaceLens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLens.swift; sourceTree = "<group>"; };
+		F10000250000000000000001 /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
+		F10000260000000000000001 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F10000270000000000000001 /* Thumbnails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnails.swift; sourceTree = "<group>"; };
+		F10000280000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10000290000000000000001 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		F10000300000000000000001 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		F10000310000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10000320000000000000001 /* Findy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Findy.entitlements; sourceTree = "<group>"; };
+		F20000010000000000000001 /* FindyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G00000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				G10000010000000000000001 /* Sources */,
+				G20000010000000000000001 /* Assets */,
+				G30000010000000000000001 /* Config */,
+				G40000010000000000000001 /* Tests */,
+				G50000010000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G10000010000000000000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				G10000020000000000000001 /* Findy */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		G10000020000000000000001 /* Findy */ = {
+			isa = PBXGroup;
+			children = (
+				F10000010000000000000001 /* AutoCleanup.swift */,
+				F10000020000000000000001 /* BatchRename.swift */,
+				F10000030000000000000001 /* BrowserView.swift */,
+				F10000040000000000000001 /* Cards.swift */,
+				F10000050000000000000001 /* Cleanup.swift */,
+				F10000060000000000000001 /* DownloadSources.swift */,
+				F10000070000000000000001 /* Duplicates.swift */,
+				F10000080000000000000001 /* FileActions.swift */,
+				F10000090000000000000001 /* FileShelf.swift */,
+				F10000100000000000000001 /* FindyApp.swift */,
+				F10000110000000000000001 /* HomeView.swift */,
+				F10000120000000000000001 /* InspectorView.swift */,
+				F10000130000000000000001 /* Intents.swift */,
+				F10000140000000000000001 /* Library.swift */,
+				F10000150000000000000001 /* MenuBarDownloads.swift */,
+				F10000160000000000000001 /* Models.swift */,
+				F10000170000000000000001 /* NaturalSearch.swift */,
+				F10000180000000000000001 /* Player.swift */,
+				F10000190000000000000001 /* QuickLook.swift */,
+				F10000200000000000000001 /* QuickSearch.swift */,
+				F10000210000000000000001 /* SavedSearches.swift */,
+				F10000220000000000000001 /* SettingsView.swift */,
+				F10000230000000000000001 /* SidebarView.swift */,
+				F10000240000000000000001 /* SpaceLens.swift */,
+				F10000250000000000000001 /* TextRecognition.swift */,
+				F10000260000000000000001 /* Theme.swift */,
+				F10000270000000000000001 /* Thumbnails.swift */,
+				G10000030000000000000001 /* Resources */,
+			);
+			path = Findy;
+			sourceTree = "<group>";
+		};
+		G10000030000000000000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F10000300000000000000001 /* Logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		G20000010000000000000001 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F10000280000000000000001 /* Assets.xcassets */,
+				F10000290000000000000001 /* AppIcon.icns */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		G30000010000000000000001 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F10000310000000000000001 /* Info.plist */,
+				F10000320000000000000001 /* Findy.entitlements */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		G40000010000000000000001 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				G40000020000000000000001 /* FindyTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		G40000020000000000000001 /* FindyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F20000010000000000000001 /* FindyTests.swift */,
+			);
+			path = FindyTests;
+			sourceTree = "<group>";
+		};
+		G50000010000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00000010000000000000001 /* Findy.app */,
+				F00000020000000000000001 /* FindyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T10000010000000000000001 /* Findy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X10000010000000000000001 /* Build configuration list for PBXNativeTarget "Findy" */;
+			buildPhases = (
+				S10000010000000000000001 /* Sources */,
+				B10000010000000000000001 /* Frameworks */,
+				R10000010000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Findy;
+			productName = Findy;
+			productReference = F00000010000000000000001 /* Findy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		T20000010000000000000001 /* FindyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = X20000010000000000000001 /* Build configuration list for PBXNativeTarget "FindyTests" */;
+			buildPhases = (
+				S20000010000000000000001 /* Sources */,
+				B20000010000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10000010000000000000001 /* PBXTargetDependency */,
+			);
+			name = FindyTests;
+			productName = FindyTests;
+			productReference = F00000020000000000000001 /* FindyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P10000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					T10000010000000000000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					T20000010000000000000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = X00000010000000000000001 /* Build configuration list for PBXProject "Findy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G00000010000000000000001;
+			productRefGroup = G50000010000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T10000010000000000000001 /* Findy */,
+				T20000010000000000000001 /* FindyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R10000010000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000280000000000000001 /* Assets.xcassets in Resources */,
+				A10000300000000000000001 /* Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S10000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* AutoCleanup.swift in Sources */,
+				A10000020000000000000001 /* BatchRename.swift in Sources */,
+				A10000030000000000000001 /* BrowserView.swift in Sources */,
+				A10000040000000000000001 /* Cards.swift in Sources */,
+				A10000050000000000000001 /* Cleanup.swift in Sources */,
+				A10000060000000000000001 /* DownloadSources.swift in Sources */,
+				A10000070000000000000001 /* Duplicates.swift in Sources */,
+				A10000080000000000000001 /* FileActions.swift in Sources */,
+				A10000090000000000000001 /* FileShelf.swift in Sources */,
+				A10000100000000000000001 /* FindyApp.swift in Sources */,
+				A10000110000000000000001 /* HomeView.swift in Sources */,
+				A10000120000000000000001 /* InspectorView.swift in Sources */,
+				A10000130000000000000001 /* Intents.swift in Sources */,
+				A10000140000000000000001 /* Library.swift in Sources */,
+				A10000150000000000000001 /* MenuBarDownloads.swift in Sources */,
+				A10000160000000000000001 /* Models.swift in Sources */,
+				A10000170000000000000001 /* NaturalSearch.swift in Sources */,
+				A10000180000000000000001 /* Player.swift in Sources */,
+				A10000190000000000000001 /* QuickLook.swift in Sources */,
+				A10000200000000000000001 /* QuickSearch.swift in Sources */,
+				A10000210000000000000001 /* SavedSearches.swift in Sources */,
+				A10000220000000000000001 /* SettingsView.swift in Sources */,
+				A10000230000000000000001 /* SidebarView.swift in Sources */,
+				A10000240000000000000001 /* SpaceLens.swift in Sources */,
+				A10000250000000000000001 /* TextRecognition.swift in Sources */,
+				A10000260000000000000001 /* Theme.swift in Sources */,
+				A10000270000000000000001 /* Thumbnails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		S20000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000010000000000000001 /* FindyTests.swift in Sources */,
+				A20000020000000000000001 /* AutoCleanup.swift in Sources */,
+				A20000030000000000000001 /* BatchRename.swift in Sources */,
+				A20000040000000000000001 /* BrowserView.swift in Sources */,
+				A20000050000000000000001 /* Cards.swift in Sources */,
+				A20000060000000000000001 /* Cleanup.swift in Sources */,
+				A20000070000000000000001 /* DownloadSources.swift in Sources */,
+				A20000080000000000000001 /* Duplicates.swift in Sources */,
+				A20000090000000000000001 /* FileActions.swift in Sources */,
+				A20000100000000000000001 /* FileShelf.swift in Sources */,
+				A20000110000000000000001 /* HomeView.swift in Sources */,
+				A20000120000000000000001 /* InspectorView.swift in Sources */,
+				A20000130000000000000001 /* Intents.swift in Sources */,
+				A20000140000000000000001 /* Library.swift in Sources */,
+				A20000150000000000000001 /* MenuBarDownloads.swift in Sources */,
+				A20000160000000000000001 /* Models.swift in Sources */,
+				A20000170000000000000001 /* NaturalSearch.swift in Sources */,
+				A20000180000000000000001 /* Player.swift in Sources */,
+				A20000190000000000000001 /* QuickLook.swift in Sources */,
+				A20000200000000000000001 /* QuickSearch.swift in Sources */,
+				A20000210000000000000001 /* SavedSearches.swift in Sources */,
+				A20000220000000000000001 /* SettingsView.swift in Sources */,
+				A20000230000000000000001 /* SidebarView.swift in Sources */,
+				A20000240000000000000001 /* SpaceLens.swift in Sources */,
+				A20000250000000000000001 /* TextRecognition.swift in Sources */,
+				A20000260000000000000001 /* Theme.swift in Sources */,
+				A20000270000000000000001 /* Thumbnails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D10000010000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = T10000010000000000000001 /* Findy */;
+			targetProxy = C10000010000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		K00000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		K00000020000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		K10000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/Findy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 200;
+				DEVELOPMENT_TEAM = 9TKKPN6F59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.findy.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		K10000020000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/Findy.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 200;
+				DEVELOPMENT_TEAM = 9TKKPN6F59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.findy.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		K20000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 200;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.findy.macos.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		K20000020000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 200;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.findy.macos.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		X00000010000000000000001 /* Build configuration list for PBXProject "Findy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K00000010000000000000001 /* Debug */,
+				K00000020000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X10000010000000000000001 /* Build configuration list for PBXNativeTarget "Findy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K10000010000000000000001 /* Debug */,
+				K10000020000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		X20000010000000000000001 /* Build configuration list for PBXNativeTarget "FindyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				K20000010000000000000001 /* Debug */,
+				K20000020000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P10000010000000000000001 /* Project object */;
+}
